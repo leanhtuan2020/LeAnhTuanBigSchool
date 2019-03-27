@@ -205,14 +205,6 @@
     <Compile Include="Migrations\201903270726392_InitialModel.Designer.cs">
       <DependentUpon>201903270726392_InitialModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201903270825222_CreateTableCourse.cs" />
-    <Compile Include="Migrations\201903270825222_CreateTableCourse.Designer.cs">
-      <DependentUpon>201903270825222_CreateTableCourse.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201903270831228_CreateTableCourse1.cs" />
-    <Compile Include="Migrations\201903270831228_CreateTableCourse1.Designer.cs">
-      <DependentUpon>201903270831228_CreateTableCourse1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -298,12 +290,6 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201903270726392_InitialModel.resx">
       <DependentUpon>201903270726392_InitialModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201903270825222_CreateTableCourse.resx">
-      <DependentUpon>201903270825222_CreateTableCourse.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201903270831228_CreateTableCourse1.resx">
-      <DependentUpon>201903270831228_CreateTableCourse1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
